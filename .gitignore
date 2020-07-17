@@ -1,0 +1,3 @@
+*.vcd
+*.icarus
+obj_dir/
