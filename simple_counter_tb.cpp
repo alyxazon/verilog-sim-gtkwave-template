@@ -13,8 +13,6 @@ int main(int argc, char** argv)
 
   // init trace dump
   Verilated::traceEverOn(true);
-
-  Verilated::traceEverOn(true);
   VerilatedVcdC* tfp = new VerilatedVcdC;
   top->trace(tfp, 99);  // Trace 99 levels of hierarchy
   tfp->open("testbench_verilator.vcd");
