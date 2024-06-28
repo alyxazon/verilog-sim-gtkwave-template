@@ -1,4 +1,4 @@
-# verilog_gtkwave_template
+# verilog-sim-gtkwave-template
 
 Just a simple Verilator/Icarus Verilog and GTKWAVE example (using Verilog).
 
